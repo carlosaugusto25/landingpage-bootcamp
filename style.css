@@ -13,7 +13,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, rgba(12,112,242,0.5) 19.91%, rgba(12,112,242,0) 24.84%), #303030;
+    background: linear-gradient(180deg, rgba(12,112,242,0.5) 30%, rgba(12,112,242,0) 35%), #303030;
     /* direção em graus pra onde vai o degradê, primeira cor e sua por centagem, segunda cor e sua por centagem */
     background-repeat: no-repeat;
 }
@@ -174,5 +174,156 @@ section {
         opacity: 0.8;
         transition: .5s;
     }
+
+/*Footer*/
+
+footer {
+    background-color: var(--azul-dnv);
+    width: 100%;
+    padding: 40px 20px 20px;
+}
+
+.linha1 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.linha1 nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha1 h5 {
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonte-padrão);
+    font-size: 25px;
+    font-weight: 800;
+    background-color: var(--preto-dnc);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.linha1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.linha1 ul li {
+    margin: 20px 0 ;
+}
+
+.linha1 ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--fonte-padrão);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.linha1 ul li a:hover {
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.linha1 .endereco {
+    color: #fff;
+    font-family: var(--fonte-padrão);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.linha2 {
+    font-family: var(--fonte-padrão);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linha2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linha2 a:hover {
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.linha2  a:first-child {
+    border-right: 3px solid #fff;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    #principal {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+    #menu {
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin: 0;
+    }
+    #principal button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    body{
+        background: linear-gradient(180deg, rgba(12,112,242,0.5) 20%, rgba(12,112,242,0) 25%), #303030;
+        /* direção em graus pra onde vai o degradê, primeira cor e sua por centagem, segunda cor e sua por centagem */
+        background-repeat: no-repeat;
+    }
+
+    section h1 {
+        font-size: 38px;
+    }
+    section h2 {
+        font-size: 16px;
+    }
+
+    form {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .checkbox-itens label {
+        font-size: 15px;
+    }
+
+    footer .linha1 {
+        flex-direction: column;
+    }
+    
+    footer .linha1 ul li a {
+        font-size: 16px;
+    }
+
+    footer .linha1 .endereco {
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    footer .linha2 a{
+        font-size: 15px;
+    }
+}
+
+
+
 
     
