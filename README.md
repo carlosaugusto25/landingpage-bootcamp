@@ -2,4 +2,4 @@
 
 <h5>Repositório com treinamento da criação de uma lading page com HTML e CSS, usando media querys para ajustar a responsividade da página.</h5>
 
-<h3>Link do deploy: https://dnc-leads.netlify.app</h3>
+<h3>Link do deploy: https://bootcamp-dnc-patrice.netlify.app</h3>
